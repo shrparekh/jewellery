@@ -1,338 +1,4 @@
-<!DOCTYPE html>
-
-<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<!--<![endif]-->
-
-
-<!-- Mirrored from themesflat.co/html/vemus/thank-you.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 May 2025 06:19:20 GMT -->
-<head>
-    <meta charset="utf-8">
-    <title>Vemus - Jewelry Ecommerce HTML Template</title>
-    <meta name="author" content="themesflat.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description"
-        content="Themesflat Vemus - A modern and elegant Jewelry Ecommerce HTML Template, perfect for online stores selling rings, necklaces, watches, and other accessories. SEO-optimized, fast-loading, and fully customizable.">
-
-    <!-- font -->
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="icon/icomoon/style.css">
-    <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-    <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="images/logo/short-logo.svg">
-    <link rel="apple-touch-icon-precomposed" href="images/logo/short-logo.svg">
-
-</head>
-
-<body>
-
-    <!-- Scroll Top -->
-    <button id="goTop">
-        <span class="border-progress"></span>
-        <span class="icon icon-arrow-right-2"></span>
-    </button>
-
-    <!-- preload -->
-    <div class="preload preload-container" id="preload">
-        <div class="preload-logo">
-            <div class="spinner"></div>
-        </div>
-    </div>
-    <!-- /preload -->
-
-    <div id="wrapper">
-        <!-- Top Bar-->
-        <div class="tf-topbar bg-dark-olive">
-            <div class="container">
-                <div class="topbar-inner">
-                    <div dir="ltr" class="swiper tf-swiper" data-loop="true" data-auto="true" data-delay="3000" data-speed="1000" data-space="10"
-                        data-direction="vertical">
-                        <div class="swiper-wrapper">
-                            <!-- item 1 -->
-                            <div class="swiper-slide">
-                                <div class="has-btn">
-                                    <p class="text-caption-3 fw-medium text-white">
-                                        FREE STANDARD DELIVERY FOR ALL ORDERS OVER
-                                        $200
-                                    </p>
-                                    <span class="br-line"></span>
-                                    <a href="shop-default.html" class="tf-btn-line style-white-2 text-uppercase lh-19">
-                                        Shop Now
-                                        <i class="icon-arrow-top-right-2 fs-10"></i></a>
-                                </div>
-                            </div>
-                            <!-- item 2 -->
-                            <div class="swiper-slide">
-                                <div class="has-btn">
-                                    <p class="text-caption-3 fw-medium text-white">
-                                        COMPLIMENTARY SHIPPING ON ORDERS ABOVE
-                                        $200
-                                    </p>
-                                    <span class="br-line"></span>
-                                    <a href="shop-default.html" class="tf-btn-line style-white-2 text-uppercase lh-19">
-                                        Shop Now
-                                        <i class="icon-arrow-top-right-2 fs-10"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- /Top Bar -->
-        <!-- Header -->
-          <header class="tf-header">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-4 col-3 d-xl-none">
-                        <a href="#mobileMenu" data-bs-toggle="offcanvas" class="btn-mobile-menu">
-                            <span></span>
-                        </a>
-                    </div>
-                    <div class="col-xl-2 col-md-4 col-6">
-                        <a href="home-6.html" class="logo-site">
-                            <img src="images/logo/logo.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-xl-8 d-none d-xl-block">
-                        <nav class="box-navigation">
-                            <ul class="box-nav-menu">
-                                <li class="menu-item active">
-                                    <a href="index.html" class="item-link">Home<i class="icon "></i></a>
-                               
-                                </li>
-                                <li class="menu-item">
-                                    <a href="about-us.html" class="item-link">About Us<i class="icon "></i></a>
-                                 
-                                </li>
-                                <li class="menu-item">
-                                    <a href="shop-collection-list.html" class="item-link">
-                                        Category
-                                        <i class="icon "></i>
-                                    </a>
-                                 
-                                </li>
-                                <li class="menu-item">
-                                    <a href="shop-left-sidebar.html" class="item-link">
-                                       Shop Pages
-                                        <i class="icon "></i>
-                                    </a>
-                                    
-                                </li>
-                                <li class="menu-item position-relative">
-                                    <a href="contact-us.html" class="item-link">
-                                        Contact Us
-                                        <i class="icon "></i>
-                                    </a>
-                                
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-xl-2 col-md-4 col-3">
-                        <ul class="nav-icon">
-                            <li class="d-inline-flex">
-                                <a href="#search" data-bs-toggle="offcanvas" class="nav-icon-item text-black link">
-                                    <i class="icon icon-search"></i>
-                                </a>
-                            </li>
-                            <li class="br-line d-none d-xl-flex"></li>
-                            <li class="d-none d-md-inline-flex">
-                                <a href="#log" data-bs-toggle="modal" class="nav-icon-item text-black link">
-                                    <i class="icon icon-user"></i>
-                                </a>
-                            </li>
-                            <li class="d-none d-md-inline-flex">
-                                <a href="wishlist.html" class="nav-icon-item text-black link">
-                                    <i class="icon icon-hearth"></i>
-                                </a>
-                            </li>
-                            <li class="d-inline-flex">
-                                <a href="#shoppingCart" data-bs-toggle="offcanvas" class="nav-icon-item text-black link">
-                                    <i class="icon icon-cart"></i>
-                                    <span class="count-notice"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- /Header -->
-        <!-- Thank Your Order -->
-        <section class="flat-spacing">
-            <div class="container">
-                <div class="thank-wrap flat-spacing pt-0">
-                    <span class="icon d-block">
-                        <i class="icon-check-3"></i>
-                    </span>
-                    <h2 class="title">THANK YOU FOR YOUR ORDER!</h2>
-                    <p class="sub-title">You are awesome, Vemus! Thank you so much for your purchase.</p>
-     
-        </section>
-        <!-- /Thank Your Order -->
-        <!-- Footer -->
-           <footer class="tf-footer style-2 bg-dark-brown ">
-            <div class="footer-body p-xl-0">
-                <div class="container">
-                    <div class="footer-inner-wrap d-xl-flex flex-xl-nowrap">
-                        <div class="footer-infor">
-                            <div class="box-title">
-                                <a href="home-2.html" class="logo-site d-inline-block">
-                                    <img src="images/logo/logo-white.svg" alt="">
-                                </a>
-
-                                <p class="text-main-5 lt-sp-nor">
-                                    <span class="text-white">Explore</span>
-                                    our curated collections designed to
-                                    <span class="text-white">elevate every <br class="d-none d-xl-block"> look</span>
-                                    , from
-                                    <span class="text-white">timeless essentials</span>
-                                    to
-                                    <span class="text-white">trendsetting pieces</span>
-                                    . Step <br class="d-none d-xl-block"> in and find the
-                                    <span class="text-white">perfect match</span>
-                                    for your
-                                    <span class="text-white">unique</span>
-                                    style.
-                                </p>
-                            </div>
-                            <ul class="tf-social-icon style-white">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank" class="social-facebook">
-                                        <span class="icon"><i class="icon-facebook"></i></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank" class="social-instagram">
-                                        <span class="icon"><i class="icon-instagram"></i></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://x.com/" target="_blank" class="social-x">
-                                        <span class="icon"><i class="icon-x"></i></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.snapchat.com/" target="_blank" class="social-snapchat">
-                                        <span class="icon"><i class="icon-snapchat"></i></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer-col-block">
-                            <p class="footer-heading footer-heading-mobile text-white font-2">
-                                Explore
-                            </p>
-                            <div class="tf-collapse-content">
-                                <ul class="footer-menu-list">
-                                    <li><a href="shop-collection-list.html" class="text-white link">Bracelets</a></li>
-                                    <li><a href="shop-collection-list.html" class="text-white link">Rings</a></li>
-                                    <li><a href="shop-collection-list.html" class="text-white link">Necklaces</a></li>
-                                    <li><a href="shop-collection-list.html" class="text-white link">Earrings</a></li>
-                                    <li><a href="shop-collection-list.html" class="text-white link">Gifts</a></li>
-                                    <li><a href="shop-collection-list.html" class="text-white link">Collections</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="footer-col-block">
-                            <p class="footer-heading footer-heading-mobile text-white font-2">
-                                HELP
-                            </p>
-                            <div class="tf-collapse-content">
-                                <ul class="footer-menu-list">
-                                    <li><a href="faq.html" class="text-white link">FAQs</a></li>
-                                    <li><a href="term-condition.html" class="text-white link">Terms & Conditions</a></li>
-                                    <li><a href="privacy.html" class="text-white link">Privacy Policies</a></li>
-                                    <li><a href="return.html" class="text-white link">Returns & Refunds</a></li>
-                                    <li><a href="shipping.html" class="text-white link">Shipping</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="footer-col-block">
-                            <p class="footer-heading footer-heading-mobile text-white font-2">
-                                Store Information
-                            </p>
-                            <div class="tf-collapse-content">
-                                <ul class="footer-menu-list">
-                                    <li class="text-caption">
-                                        <span class="fw-medium text-white">Email: </span>
-                                        <a href="mailto:clientcare@ecom.com" class="text-white link fw-normal">clientcare@ecom.com</a>
-                                    </li>
-                                    <li class="text-caption">
-                                        <span class="fw-medium text-white">Phone: </span>
-                                        <a href="tel:18888383022" class="text-white link fw-normal">1.888.838.3022</a>
-                                    </li>
-                                    <li class="text-caption">
-
-                                        <a target="_blank" href="https://www.google.com/maps?q=123+Yarran+st,Punchbowl,NSW+2196,Australia"
-                                            class="text-white link fw-normal">
-                                            <span class="fw-medium text-white">Address: </span>
-                                            123 Yarran st, Punchbowl, <br class="d-none d-xl-block">
-                                            NSW 2196, Australia
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="our-store.html" class="tf-btn-line style-white">
-                                            <span class="text-caption">
-                                                Get direction
-                                            </span>
-                                            <i class="icon-arrow-right-2 fs-16"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="footer-bottom-wrap">
-                        <p class="text-nocopy text-white">
-                            All Rights Reserved 2025 VEMUS.
-                        </p>
-                        <div class="tf-currencies">
-                            <select class="tf-dropdown-select style-default type-currencies color-white">
-                                <option selected>United States (USD $)</option>
-                                <option>France (EUR €)</option>
-                                <option>Germany (EUR €)</option>
-                                <option>Vietnam (VND ₫)</option>
-                            </select>
-                        </div>
-                        <ul class="paymend-method-list">
-                            <li><a href="#"><img src="images/payment/am-ex.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/apple-pay.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/dinner.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/discover.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/gg-pay.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/master-2.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/master.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/shop-pay.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/unicon-pay.svg" alt="Paymend Method"></a></li>
-                            <li><a href="#"><img src="images/payment/visa.svg" alt="Paymend Method"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="logo-bottom wow fadeInUp" data-wow-delay="0.1s">
-                <div class="container">
-                    <div class="d-flex justify-content-center">
-                        <img src="images/logo/logo-very-large.svg" class="lazyload" alt="Logo">
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- /Footer -->
-    </div>
-    <!-- Mobile Menu -->
+<!-- Mobile Menu -->
     <div class="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span class="icon-close-popup" data-bs-dismiss="offcanvas">
             <i class="icon-close"></i>
@@ -340,212 +6,28 @@
         <div class="mb-canvas-content">
             <div class="mb-body">
                 <div class="mb-content-top">
-                    <form class="form-search">
-                        <fieldset>
-                            <input type="text" placeholder="Search for anything..." class="" name="text" tabindex="0" value="" aria-required="true"
-                                required="">
-                        </fieldset>
-                        <button type="submit" class="link"><i class="icon icon-search"></i></button>
-                    </form>
+                    
                     <ul class="nav-ul-mb" id="wrapper-menu-navigation">
                         <li class="nav-mb-item">
-                            <a href="#dropdown-menu-home" class="collapsed mb-menu-link" data-bs-toggle="collapse" aria-expanded="true"
-                                aria-controls="dropdown-menu-home">
-                                <span>Home</span>
-                                <span class="btn-open-sub"></span>
-                            </a>
-                            <div id="dropdown-menu-home" class="collapse">
-                                <ul class="sub-nav-menu">
-                                    <li><a href="index.html" class="sub-nav-link">Home 1 <span class="demo-label">Hot</span></a></li>
-                                    <li><a href="home-2.html" class="sub-nav-link">Home 2 <span class="demo-label">Hot</span></a></li>
-                                    <li><a href="home-3.html" class="sub-nav-link">Home 3</a></li>
-                                    <li><a href="home-4.html" class="sub-nav-link">Home 4</a></li>
-                                    <li><a href="home-5.html" class="sub-nav-link">Home 5 <span class="demo-label type-new">New</span></a></li>
-                                    <li><a href="home-6.html" class="sub-nav-link">Home 6 <span class="demo-label type-new">New</span></a></li>
-                                </ul>
-                            </div>
-
+                            <a href="index.php" class="mb-menu-link">Home</a>
                         </li>
                         <li class="nav-mb-item">
-                            <a href="#dropdown-menu-shop" class="collapsed mb-menu-link" data-bs-toggle="collapse" aria-expanded="true"
-                                aria-controls="dropdown-menu-shop">
-                                <span>Shop</span>
-                                <span class="btn-open-sub"></span>
-                            </a>
-                            <div id="dropdown-menu-shop" class="collapse">
-                                <ul class="sub-nav-menu">
-                                    <li>
-                                        <a href="#sub-shop-layout" class="sub-nav-link collapsed" data-bs-toggle="collapse" aria-expanded="true"
-                                            aria-controls="sub-shop-layout">
-                                            <span>Shop Layout</span>
-                                            <span class="btn-open-sub"></span>
-                                        </a>
-                                        <div id="sub-shop-layout" class="collapse">
-                                            <ul class="sub-nav-menu sub-menu-level-2">
-                                                <li><a href="shop-default.html" class="sub-nav-link">Default</a></li>
-                                                <li><a href="shop-left-sidebar.html" class="sub-nav-link">Filter Left Sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html" class="sub-nav-link">Filter Right Sidebar</a></li>
-                                                <li><a href="shop-filter-top.html" class="sub-nav-link">Filter Top</a></li>
-                                                <li><a href="shop-default.html" class="sub-nav-link">Filter Drawer</a></li>
-                                                <li><a href="shop-collection-list.html" class="sub-nav-link">Collection List</a></li>
-                                                <li><a href="shop-sub-collection.html" class="sub-nav-link">Sub Collection</a></li>
-                                                <li><a href="shop-grid-2-columns.html" class="sub-nav-link">Grid 2 Collumns</a></li>
-                                                <li><a href="shop-grid-3-collumns.html" class="sub-nav-link">Grid 3 Collumns </a></li>
-                                                <li><a href="shop-grid-4-collumns.html" class="sub-nav-link">Grid 4 Collumns</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="#sub-shop-list" class="sub-nav-link collapsed" data-bs-toggle="collapse" aria-expanded="true"
-                                            aria-controls="sub-shop-list">
-                                            <span>Shop List</span>
-                                            <span class="btn-open-sub"></span>
-                                        </a>
-                                        <div id="sub-shop-list" class="collapse">
-                                            <ul class="sub-nav-menu sub-menu-level-2">
-                                                <li><a href="shop-default.html" class="sub-nav-link">Pagination Links</a></li>
-                                                <li><a href="shop-load-more-button.html" class="sub-nav-link">Load More Button</a></li>
-                                                <li><a href="shop-infinity-scroll.html" class="sub-nav-link">Infinity Scroll</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                            <a href="about-us.php" class="mb-menu-link">About</a>
                         </li>
                         <li class="nav-mb-item">
-                            <a href="#dropdown-menu-product" class="collapsed mb-menu-link" data-bs-toggle="collapse" aria-expanded="true"
-                                aria-controls="dropdown-menu-product">
-                                <span>Products</span>
-                                <span class="btn-open-sub"></span>
-                            </a>
-                            <div id="dropdown-menu-product" class="collapse">
-                                <ul class="sub-nav-menu">
-                                    <li>
-                                        <a href="#sub-product-layout" class="sub-nav-link collapsed" data-bs-toggle="collapse" aria-expanded="true"
-                                            aria-controls="sub-product-layout">
-                                            <span>Product Layouts</span>
-                                            <span class="btn-open-sub"></span>
-                                        </a>
-                                        <div id="sub-product-layout" class="collapse">
-                                            <ul class="sub-nav-menu sub-menu-level-2">
-                                                <li><a href="product-default.html" class="sub-nav-link">Product Default</a></li>
-                                                <li><a href="product-style-02.html" class="sub-nav-link">Product Style 2</a></li>
-                                                <li><a href="product-style-03.html" class="sub-nav-link">Product Style 3</a></li>
-                                                <li><a href="product-style-04.html" class="sub-nav-link">Product Style 4 <span
-                                                            class="demo-label">Hot</span></a></li>
-                                                <li><a href="product-style-05.html" class="sub-nav-link">Product Style 5 <span
-                                                            class="demo-label type-trend">Trending</span></a></li>
-                                                <li><a href="product-style-04-no-size.html" class="sub-nav-link">Product No Size</a></li>
-                                                <li><a href="product-notify-avaiable.html" class="sub-nav-link">Product Notify Avaiable <span
-                                                            class="demo-label type-new">New</span></a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="#sub-product-desc" class="sub-nav-link collapsed" data-bs-toggle="collapse" aria-expanded="true"
-                                            aria-controls="sub-product-desc">
-                                            <span>Product Description</span>
-                                            <span class="btn-open-sub"></span>
-                                        </a>
-                                        <div id="sub-product-desc" class="collapse">
-                                            <ul class="sub-nav-menu sub-menu-level-2">
-                                                <li><a href="product-description-side-dropdown.html" class="sub-nav-link">Description Side
-                                                        Dropdown</a></li>
-                                                <li><a href="product-description-full-accordion.html" class="sub-nav-link">Description Full
-                                                        Accordions</a></li>
-                                                <li><a href="product-description-side-drawer.html" class="sub-nav-link">Description Side Drawer</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="#sub-product-detail" class="sub-nav-link collapsed" data-bs-toggle="collapse" aria-expanded="true"
-                                            aria-controls="sub-product-detail">
-                                            <span>Product Details</span>
-                                            <span class="btn-open-sub"></span>
-                                        </a>
-                                        <div id="sub-product-detail" class="collapse">
-                                            <ul class="sub-nav-menu sub-menu-level-2">
-                                                <li><a href="product-inner-zoom.html" class="sub-nav-link">Product Inner Zoom</a></li>
-                                                <li><a href="product-inner-circle-zoom.html" class="sub-nav-link">Product Inner Circle Zoom</a></li>
-                                                <li><a href="product-no-zoom.html" class="sub-nav-link">Product No Zoom</a></li>
-                                                <li><a href="product-video.html" class="sub-nav-link">Product Video</a></li>
-                                                <li><a href="product-3d.html" class="sub-nav-link">Product 3D/AR</a></li>
-                                                <li><a href="product-group.html" class="sub-nav-link">Product Group <span
-                                                            class="demo-label type-new">New</span></a></li>
-                                                <li><a href="product-affiliate.html" class="sub-nav-link">Product Affiliate <span
-                                                            class="demo-label type-new">New</span></a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="#sub-product-feature" class="sub-nav-link collapsed" data-bs-toggle="collapse" aria-expanded="true"
-                                            aria-controls="sub-product-feature">
-                                            <span>Product Features</span>
-                                            <span class="btn-open-sub"></span>
-                                        </a>
-                                        <div id="sub-product-feature" class="collapse">
-                                            <ul class="sub-nav-menu sub-menu-level-2">
-                                                <li><a href="product-pickup-available.html" class="sub-nav-link">Pickup Available</a></li>
-                                                <li><a href="product-swatch-image.html" class="sub-nav-link">Swatch Image</a></li>
-                                                <li><a href="product-together.html" class="sub-nav-link">Buy Together <span
-                                                            class="demo-label type-new">New</span></a></li>
-                                                <li><a href="product-style-04.html" class="sub-nav-link">Size Guide</a></li>
-                                                <li><a href="product-engrave-option.html" class="sub-nav-link">Engrave Option</a></li>
-                                                <li><a href="product-buyX-getY.html" class="sub-nav-link">Buy X Get Y</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                </ul>
-                            </div>
+                            <a href="shop-collection.php" class="mb-menu-link">Category</a>
                         </li>
                         <li class="nav-mb-item">
-                            <a href="#dropdown-menu-pages" class="collapsed mb-menu-link" data-bs-toggle="collapse" aria-expanded="true"
-                                aria-controls="dropdown-menu-pages">
-                                <span>Pages</span>
-                                <span class="btn-open-sub"></span>
-                            </a>
-                            <div id="dropdown-menu-pages" class="collapse">
-                                <ul class="sub-nav-menu">
-                                    <li><a href="about-us.html" class="sub-nav-link">About Us</a></li>
-                                    <li><a href="contact-us.html" class="sub-nav-link">Contact Us</a></li>
-                                    <li><a href="our-store.html" class="sub-nav-link">Store Location</a></li>
-                                    <li><a href="account-page.html" class="sub-nav-link">My Account</a></li>
-                                    <li><a href="faq.html" class="sub-nav-link">FAQ</a></li>
-                                    <li><a href="shop-cart.html" class="sub-nav-link">Shop Cart </a></li>
-                                    <li><a href="before-you-leave.html" class="sub-nav-link">Before You Leave</a></li>
-                                    <li><a href="product-popup.html" class="sub-nav-link">Products Popup</a></li>
-                                    <li><a href="newsletter-popup.html" class="sub-nav-link">Newsletter Popup</a></li>
-                                    <li><a href="404.html" class="sub-nav-link">404</a></li>
-                                    <li><a href="coming-soon.html" class="sub-nav-link">Coming Soon!</a>
-                                    </li>
-                                </ul>
-                            </div>
-
+                            <a href="shop-left-sidebar.php" class="mb-menu-link">Shop</a>
                         </li>
                         <li class="nav-mb-item">
-                            <a href="#dropdown-menu-blog" class="collapsed mb-menu-link" data-bs-toggle="collapse" aria-expanded="true"
-                                aria-controls="dropdown-menu-blog">
-                                <span>Blog</span>
-                                <span class="btn-open-sub"></span>
-                            </a>
-                            <div id="dropdown-menu-blog" class="collapse">
-                                <ul class="sub-nav-menu">
-                                    <li><a href="blog-list-style-1.html" class="sub-nav-link">Blog List Style 1</a></li>
-                                    <li><a href="blog-list-style-2.html" class="sub-nav-link">Blog List Style 2</a></li>
-                                    <li><a href="blog-single.html" class="sub-nav-link">Single Post</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-mb-item">
-                            <a href="https://themeforest.net/user/themesflat" class="mb-menu-link">Buy Theme</a>
+                            <a href="contact.php" class="mb-menu-link">Contact Us</a>
                         </li>
                     </ul>
                 </div>
                 <div class="mb-other-content">
                     <div class="group-icon">
-                        <a href="wishlist.html" class="site-nav-icon">
+                        <a href="wishlist.php" class="site-nav-icon">
                             <i class="icon icon-hearth"></i>
                             Wishlist
                         </a>
@@ -557,7 +39,7 @@
                         </p>
                     </div>
                     <div class="mb-notice">
-                        <a href="contact-us.html" class="text-need">Need Help?</a>
+                        <a href="contact-us.php" class="text-need">Need Help?</a>
                     </div>
                     <ul class="mb-info">
                         <li>
@@ -579,30 +61,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="mb-bottom">
-                <div class="bottom-bar-language">
-                    <div class="tf-currencies">
-                        <select class="tf-dropdown-select style-default type-currencies">
-                            <option selected>USD ($)</option>
-                            <option>EUR (€)</option>
-                            <option>EUR (€)</option>
-                            <option>VND (₫)</option>
-                        </select>
-                    </div>
-                    <div class="tf-languages">
-                        <select class="tf-dropdown-select style-default type-languages">
-                            <option>English</option>
-                            <option>العربية</option>
-                            <option>简体中文</option>
-                            <option>اردو</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <!-- /Mobile Menu -->
-    <!-- Login -->
+<!-- Login -->
     <div class="modal modalCentered fade modal-log" id="log">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -638,7 +101,7 @@
                             LOG IN
                         </button>
                     </form>
-                    <div class="other-login">
+                    <!-- <div class="other-login">
                         <a href="#" class="tf-btn btn-fill-3 ic-abs w-100 fw-medium">
                             <span class="icon">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -677,7 +140,7 @@
                             </span>
                             Log in with Google
                         </a>
-                    </div>
+                    </div> -->
                     <div class="text-center">
                         <a href="#register" data-bs-toggle="modal" class="tf-btn-line">
                             <span class="text-body">
@@ -737,7 +200,7 @@
                             LOG IN
                         </button>
                     </form>
-                    <div class="other-login">
+                    <!-- <div class="other-login">
                         <a href="#" class="tf-btn btn-fill-3 ic-abs w-100 fw-medium">
                             <span class="icon">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -776,7 +239,7 @@
                             </span>
                             Log in with Google
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -814,7 +277,7 @@
             </div>
             <div class="wrap list-file-delete">
                 <div class="tf-mini-cart-threshold">
-                    <h6 class="text fw-normal text-uppercase">Spend <span class="fw-medium">$100</span> more to get
+                    <!-- <h6 class="text fw-normal text-uppercase">Spend <span class="fw-medium">$100</span> more to get
                         <span class="fw-medium">Free
                             Shipping</span>
                     </h6>
@@ -822,7 +285,7 @@
                         <div class="value" style="width: 0%;" data-progress="75">
                             <i class="icon icon-delivery"></i>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="tf-number-count">
                         <p class="text-uppercase"><span class="prd-count">4</span> products</p>
 
@@ -842,7 +305,7 @@
                                         <img src="images/products/product-24.jpg" alt="">
                                     </div>
                                     <div class="tf-mini-cart-info">
-                                        <a href="product-default.html" class="prd-name link">
+                                        <a href="product-default.php" class="prd-name link">
                                             Crystal Birthstone Eternity Circle Charm
                                         </a>
                                         <p class="type-select text-main-4">
@@ -873,7 +336,7 @@
                                         <img src="images/products/product-26.jpg" alt="">
                                     </div>
                                     <div class="tf-mini-cart-info">
-                                        <a href="product-default.html" class="prd-name link">
+                                        <a href="product-default.php" class="prd-name link">
                                             Ball Bracelet
                                         </a>
                                         <p class="type-select text-main-4">
@@ -904,7 +367,7 @@
                                         <img src="images/products/product-28.jpg" alt="">
                                     </div>
                                     <div class="tf-mini-cart-info">
-                                        <a href="product-default.html" class="prd-name link">
+                                        <a href="product-default.php" class="prd-name link">
                                             Engagement Ring in 18k Yellow Gold
                                         </a>
                                         <p class="type-select text-main-4">
@@ -934,7 +397,7 @@
                         </div>
                     </div>
                     <div class="tf-mini-cart-bottom">
-                        <div class="tf-mini-cart-tool">
+                        <!-- <div class="tf-mini-cart-tool">
                             <div class="tf-mini-cart-tool-btn btn-add-gift">
                                 <i class="icon icon-gift"></i>
                                 <p class="text-caption">Add gift wrap</p>
@@ -947,7 +410,7 @@
                                 <i class="icon icon-delivery-3"></i>
                                 <p class="text-caption">Shipping</p>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="tf-mini-cart-bottom-wrap">
                             <div class="tf-cart-totals-discounts">
                                 <h6 class="tf-cart-total-text fw-normal text-uppercase">total:</h6>
@@ -1065,75 +528,6 @@
         </div>
     </div>
     <!-- /Shopping Cart -->
-    <!-- Search -->
-    <div class="offcanvas offcanvas-top offcanvas-search" id="search">
-        <div class="offcanvas-content">
-            <div class="container">
-                <div class="popup-content">
-                    <form class="form-search">
-                        <fieldset>
-                            <input type="text" placeholder="ENTER YOUR SEARCH" class="" name="text" tabindex="0" value="" aria-required="true"
-                                required="">
-                        </fieldset>
-                        <button type="submit" class="link"><i class="icon icon-search"></i></button>
-                        <span class="icon-close-popup" data-bs-dismiss="offcanvas">
-                            <i class="icon-close"></i>
-                        </span>
-                    </form>
-                    <div class="tf-grid-layout sm-col-2">
-                        <div class="feature-wrap">
-                            <p class="title">QUICK LINK</p>
-                            <ul class="quick-link-list">
-                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Best Sellers</a></li>
-                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Bracelets</a></li>
-                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Earrings</a></li>
-                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Rings</a></li>
-                            </ul>
-                        </div>
-                        <div class="feature-wrap">
-                            <p class="title">SUGGESTION FOR YOU</p>
-                            <ul class="product-list">
-                                <li>
-                                    <div class="tf-product-mini-view">
-                                        <a href="product-default.html" class="prd-image">
-                                            <img src="images/products/product-28.jpg" alt="">
-                                        </a>
-                                        <div class="prd-content">
-                                            <a href="product-default.html" class="prd-name link text-uppercase">
-                                                engagement ring in 18k yellow gold
-                                            </a>
-                                            <div class="price-wrap">
-                                                <span class="price-new price-on-sale">$2,499.00</span>
-                                                <span class="price-old compare-at-price text-caption">$2,623.95</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="tf-product-mini-view">
-                                        <a href="product-default.html" class="prd-image">
-                                            <img src="images/products/product-32.jpg" alt="">
-                                        </a>
-                                        <div class="prd-content">
-                                            <a href="product-default.html" class="prd-name link text-uppercase">
-                                                Infinite Lab - Grown Diamond Bangle
-                                            </a>
-                                            <div class="price-wrap">
-                                                <span class="price-new price-on-sale">$2,499.00</span>
-                                                <span class="price-old compare-at-price text-caption">$2,623.95</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <span class="close" data-bs-dismiss="offcanvas"></span>
-    </div>
-    <!-- /Search -->
     <!-- Quick View -->
     <div class="modal modalCentered fade modal-quick-view" id="quickView">
         <div class="modal-dialog modal-dialog-centered">
@@ -1175,7 +569,7 @@
                 <div class="tf-product-info-wrap">
                     <div class="tf-product-info-inner tf-product-info-list">
                         <div class="tf-product-info-heading">
-                            <a href="product-default.html" class="product-info-name h4 fw-normal text-uppercase link">
+                            <a href="product-default.php" class="product-info-name h4 fw-normal text-uppercase link">
                                 engagement ring in 18k yellow gold
                             </a>
                             <div class="product-info-price">
@@ -1274,7 +668,7 @@
                                 buy it now
                             </a>
                         </div>
-                        <a href="product-default.html" class="tf-btn-line">
+                        <a href="product-default.php" class="tf-btn-line">
                             <span class="text-body">View full details</span>
                             <i class="icon icon-arrow-top-right"></i>
                         </a>
@@ -1301,7 +695,7 @@
                             <div class="tf-compare-item card_product--V01 file-delete">
                                 <div class="card_product-wrapper aspect-ratio-1">
                                     <span class="remove icon-close"></span>
-                                    <a href="product-default.html" class="product-img">
+                                    <a href="product-default.php" class="product-img">
                                         <img src="images/products/product-24.jpg" data-src="images/products/product-24.jpg" alt="Image Product"
                                             class="lazyload img-product">
                                         <img src="images/products/product-25.jpg" data-src="images/products/product-25.jpg" alt="Image Product"
@@ -1309,7 +703,7 @@
                                     </a>
                                 </div>
                                 <div class="card_product-info text-center">
-                                    <a href="product-default.html" class="name-product link text-line-clamp-2">
+                                    <a href="product-default.php" class="name-product link text-line-clamp-2">
                                         Crystal Birthstone Eternity Circle Charm
                                     </a>
                                     <div class="price-wrap justify-content-center">
@@ -1321,7 +715,7 @@
                             <div class="tf-compare-item card_product--V01 file-delete">
                                 <div class="card_product-wrapper aspect-ratio-1">
                                     <span class="remove icon-close"></span>
-                                    <a href="product-default.html" class="product-img">
+                                    <a href="product-default.php" class="product-img">
                                         <img src="images/products/product-26.jpg" data-src="images/products/product-26.jpg" alt="Image Product"
                                             class="lazyload img-product">
                                         <img src="images/products/product-27.jpg" data-src="images/products/product-27.jpg" alt="Image Product"
@@ -1329,7 +723,7 @@
                                     </a>
                                 </div>
                                 <div class="card_product-info text-center">
-                                    <a href="product-default.html" class="name-product link text-line-clamp-2">
+                                    <a href="product-default.php" class="name-product link text-line-clamp-2">
                                         Ball Bracelet
                                     </a>
                                     <div class="price-wrap justify-content-center">
@@ -1341,7 +735,7 @@
                             <div class="tf-compare-item card_product--V01 file-delete">
                                 <div class="card_product-wrapper aspect-ratio-1">
                                     <span class="remove icon-close"></span>
-                                    <a href="product-default.html" class="product-img">
+                                    <a href="product-default.php" class="product-img">
                                         <img src="images/products/product-28.jpg" data-src="images/products/product-28.jpg" alt="Image Product"
                                             class="lazyload img-product">
                                         <img src="images/products/product-29.jpg" data-src="images/products/product-29.jpg" alt="Image Product"
@@ -1349,7 +743,7 @@
                                     </a>
                                 </div>
                                 <div class="card_product-info text-center">
-                                    <a href="product-default.html" class="name-product link text-line-clamp-2">
+                                    <a href="product-default.php" class="name-product link text-line-clamp-2">
                                         Engagement Ring in 18k Yellow Gold
                                     </a>
                                     <div class="price-wrap justify-content-center">
@@ -1361,7 +755,7 @@
                             <div class="tf-compare-item card_product--V01 file-delete">
                                 <div class="card_product-wrapper aspect-ratio-1">
                                     <span class="remove icon-close"></span>
-                                    <a href="product-default.html" class="product-img">
+                                    <a href="product-default.php" class="product-img">
                                         <img src="images/products/product-34.jpg" data-src="images/products/product-34.jpg" alt="Image Product"
                                             class="lazyload img-product">
                                         <img src="images/products/product-35.jpg" data-src="images/products/product-35.jpg" alt="Image Product"
@@ -1369,7 +763,7 @@
                                     </a>
                                 </div>
                                 <div class="card_product-info text-center">
-                                    <a href="product-default.html" class="name-product link text-line-clamp-2">
+                                    <a href="product-default.php" class="name-product link text-line-clamp-2">
                                         Vine Ring in Platinum with a Tanzanite and Diamonds
                                     </a>
                                     <div class="price-wrap justify-content-center">
@@ -1400,11 +794,11 @@
                 <div class="tf-product-info-wrap mt-0">
                     <div class="tf-product-info-inner tf-product-info-list mb-0">
                         <div class="tf-product-mini-view">
-                            <a href="product-default.html" class="prd-image">
+                            <a href="product-default.php" class="prd-image">
                                 <img src="images/products/product-28.jpg" alt="Image Product">
                             </a>
                             <div class="prd-content">
-                                <a href="product-default.html" class="prd-name link h6 fw-normal text-uppercase">
+                                <a href="product-default.php" class="prd-name link h6 fw-normal text-uppercase">
                                     engagement ring in 18k yellow gold
                                 </a>
                                 <div class="price-wrap">
@@ -1591,10 +985,80 @@
         </div>
     </div>
     <!-- /Size Guide -->
+    <!-- Search -->
+    <div class="offcanvas offcanvas-top offcanvas-search" id="search">
+        <div class="offcanvas-content">
+            <div class="container">
+                <div class="popup-content">
+                    <form class="form-search">
+                        <fieldset>
+                            <input type="text" placeholder="ENTER YOUR SEARCH" class="" name="text" tabindex="0" value="" aria-required="true"
+                                required="">
+                        </fieldset>
+                        <button type="submit" class="link"><i class="icon icon-search"></i></button>
+                        <span class="icon-close-popup" data-bs-dismiss="offcanvas">
+                            <i class="icon-close"></i>
+                        </span>
+                    </form>
+                    <div class="tf-grid-layout sm-col-2">
+                        <div class="feature-wrap">
+                            <p class="title">QUICK LINK</p>
+                            <ul class="quick-link-list">
+                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Best Sellers</a></li>
+                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Bracelets</a></li>
+                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Earrings</a></li>
+                                <li><a href="shop-collection-list.html" class="link-item text-main-4 link">Rings</a></li>
+                            </ul>
+                        </div>
+                        <div class="feature-wrap">
+                            <p class="title">SUGGESTION FOR YOU</p>
+                            <ul class="product-list">
+                                <li>
+                                    <div class="tf-product-mini-view">
+                                        <a href="product-default.php" class="prd-image">
+                                            <img src="images/products/product-28.jpg" alt="">
+                                        </a>
+                                        <div class="prd-content">
+                                            <a href="product-default.php" class="prd-name link text-uppercase">
+                                                engagement ring in 18k yellow gold
+                                            </a>
+                                            <div class="price-wrap">
+                                                <span class="price-new price-on-sale">$2,499.00</span>
+                                                <span class="price-old compare-at-price text-caption">$2,623.95</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tf-product-mini-view">
+                                        <a href="product-default.php" class="prd-image">
+                                            <img src="images/products/product-32.jpg" alt="">
+                                        </a>
+                                        <div class="prd-content">
+                                            <a href="product-default.php" class="prd-name link text-uppercase">
+                                                Infinite Lab - Grown Diamond Bangle
+                                            </a>
+                                            <div class="price-wrap">
+                                                <span class="price-new price-on-sale">$2,499.00</span>
+                                                <span class="price-old compare-at-price text-caption">$2,623.95</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="close" data-bs-dismiss="offcanvas"></span>
+    </div>
+    <!-- /Search -->
+ 
     <!-- Toolbar -->
     <div class="tf-toolbar-bottom">
         <div class="toolbar-item">
-            <a href="shop-default.html">
+            <a href="shop-default.php">
                 <span class="toolbar-icon">
                     <i class="icon icon-menu-home"></i>
                 </span>
@@ -1610,7 +1074,7 @@
             </a>
         </div>
         <div class="toolbar-item">
-            <a href="account-page.html">
+            <a href="account-page.php">
                 <span class="toolbar-icon">
                     <i class="icon icon-user-2"></i>
                 </span>
@@ -1618,7 +1082,7 @@
             </a>
         </div>
         <div class="toolbar-item">
-            <a href="wishlist.html">
+            <a href="wishlist.php">
                 <span class="toolbar-icon">
                     <i class="icon icon-hearth-3"></i>
                     <span class="toolbar-count">0</span>
@@ -1627,7 +1091,7 @@
             </a>
         </div>
         <div class="toolbar-item">
-            <a href="shop-cart.html">
+            <a href="shop-cart.php">
                 <span class="toolbar-icon">
                     <i class="icon icon-cart-2"></i>
                     <span class="toolbar-count">0</span>
@@ -1637,24 +1101,28 @@
         </div>
     </div>
     <!-- /Toolbar -->
-    <!-- Javascript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/carousel.js"></script>
-    <script src="js/bootstrap-select.min.js"></script>
-    <script src="js/lazysize.min.js"></script>
-    <script src="js/count-down.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/infinityslide.js"></script>
-    <script src="js/gsap.min.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
-    <script src="js/SplitText.min.js"></script>
-
-
-    <script src="js/main.js"></script>
-</body>
-
-
-<!-- Mirrored from themesflat.co/html/vemus/thank-you.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 May 2025 06:19:20 GMT -->
-</html>
+    <!-- Unavailable -->
+    <div class=" modal modalCentered fade modal-unavailable" id="unavailable">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <span class="icon-close-popup" data-bs-dismiss="modal">
+                    <i class="icon-close"></i>
+                </span>
+                <div class="tf-product-notify">
+                    <h4 class="title">Notify me when it back in stock</h4>
+                    <p class="sub-title text-main-6">Enter your email address to be notified if the product becomes available
+                        again.</p>
+                    <form class="style-border form-notify">
+                        <div class="form-content-2">
+                            <input type="text" required="" placeholder="Name">
+                            <input type="text" required="" placeholder="Email*">
+                        </div>
+                        <button type="submit" class="tf-btn btn-fill-2 w-100 fw-medium animate-btn">
+                            submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Unavailable -->

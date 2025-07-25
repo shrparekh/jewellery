@@ -1,8 +1,5 @@
 /* ---------------------------------------------------------
-    * Name: Vemus - Jewelry Ecommerce HTML Template
-    * Version: 1.0.0
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+ 
 
 	* Abstracts variable
 
@@ -50,13 +47,15 @@
   --main-10: #D2D2D2;
   --main-11: #8F8F8F;
   --main-12: #667085;
-  --primary: #AE873E;
+  --primary: #930e09;
   --primary-2: #957127;
   --primary-3: #8C763B;
   --secondary: #FF6969;
   --secondary-2: #E5775F;
   --secondary-3: #DF7C1F;
   --secondary-4: #F43B3B;
+  --red:#930e09;
+  --red:#c92520;
   --bg: #F5F2E9;
   --bg-2: #776733;
   --bg-3: #000000CC;
@@ -108,39 +107,6 @@
 }
 
 /*---------- Reset css styles ----------- */
-/* ---------------------------------------------------------
-    * Name: Vemus - Jewelry Ecommerce HTML Template
-    * Version: 1.0.0
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
-
-	* Abstracts variable
-
-    * Reset css styles
-
-    * Components
-
-        * header
-        * footer
-        * accordion
-        * animation
-        * blog
-        * box iocn
-        * button
-        * carousel
-        * avatar
-        * form
-        * hover
-        * nice select
-        * popup
-        * product
-        * shop
-        * slider
-        * testimonial
-        * zoom
-
-    * Section
- ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
 html,
 body,
@@ -408,7 +374,7 @@ th {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0px ;
 }
 @media (min-width: 1440px) {
   .container-full-2 {
@@ -950,7 +916,7 @@ a:focus, a:hover {
   transition: all 0.3s ease;
 }
 .link:hover {
-  color: var(--primary) !important;
+  color: var(--bg-17) !important;
 }
 
 .link-secondary {
@@ -1109,8 +1075,29 @@ a:focus, a:hover {
 }
 
 .flat-spacing-2 {
-  padding-top: 54px;
-  padding-bottom: 54px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+    
+}
+.black-overlay {
+    position: relative;
+    background: url('../images/slider/slider-10.jpg') center/cover no-repeat;
+    color: #fff;
+    z-index: 1;
+}
+
+.black-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* black shade */
+    z-index: 0;
+}
+
+.black-overlay > * {
+    position: relative;
+    z-index: 1;
 }
 
 .flat-spacing-3 {
@@ -1636,7 +1623,7 @@ a:focus, a:hover {
   position: relative;
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: var(--bg-17);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1649,10 +1636,10 @@ a:focus, a:hover {
 }
 
 .spinner {
-  width: 60px;
-  height: 60px;
-  border: 3px solid transparent;
-  border-top: 3px solid var(--primary);
+  width: 150px;
+  height: 150px;
+  border: 5px solid transparent;
+  border-top: 5px solid var(--red);
   border-radius: 100%;
   position: absolute;
   top: 0;
@@ -2067,6 +2054,7 @@ header.header-sticky {
 .header-absolute .menu-item .item-link {
   color: var(--white);
   line-height: 64px;
+  
 }
 .header-absolute .menu-item .item-link .icon {
   color: var(--white);
@@ -2233,7 +2221,7 @@ header.header-sticky {
   transform: rotate3d(0, 0, 0, 0deg);
 }
 .menu-item.active .item-link {
-  color: var(--primary);
+  color: var(--red);
 }
 .menu-item.active .item-link .icon {
   color: var(--primary);
@@ -2258,9 +2246,10 @@ header.header-sticky {
   transition: all 0.3s ease;
   line-height: 100px;
   text-transform: uppercase;
+  /* font-weight: 600; */
 }
 .box-navigation .item-link .icon {
-  color: var(--main);
+  color: #000;
   font-size: 12px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2269,6 +2258,7 @@ header.header-sticky {
   transition: all 0.3s ease;
   position: relative;
   top: -1px;
+  font-weight: 600;
 }
 .box-navigation .item-link::before {
   content: "";
@@ -2278,7 +2268,7 @@ header.header-sticky {
   width: 100%;
   height: 2px;
   bottom: 0;
-  background-color: var(--primary);
+  background-color: var(--red);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -2868,41 +2858,7 @@ header.header-sticky {
   transform: rotate(90deg);
 }
 
-/*------------ footer ---------------- */
-/* ---------------------------------------------------------
-    * Name: Vemus - Jewelry Ecommerce HTML Template
-    * Version: 1.0.0
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
 
-	* Abstracts variable
-
-    * Reset css styles
-
-    * Components
-
-        * header
-        * footer
-        * accordion
-        * animation
-        * blog
-        * box iocn
-        * button
-        * carousel
-        * avatar
-        * form
-        * hover
-        * nice select
-        * popup
-        * product
-        * shop
-        * slider
-        * testimonial
-        * zoom
-
-    * Section
- ------------------------------------------------------------------------------ */
-/*--------- Abstracts variable ---------- */
 .category-list {
   display: flex;
   gap: 55px;
@@ -2922,7 +2878,13 @@ header.header-sticky {
 .category-list a {
   color: var(--main-4);
 }
+footer{
+    background: linear-gradient(rgba(150, 11, 11, 0.5), rgba(99, 6, 6, 0.9)), 
+              url('/images/jewellery/9983274.jpg');
+  background-size: cover;
+  background-position: center;
 
+}
 .footer-top {
   padding: 40px 0px;
   border-top: 1px solid var(--line);
@@ -2974,6 +2936,8 @@ header.header-sticky {
   text-transform: uppercase;
   margin-bottom: 24px;
   letter-spacing: 0;
+  color: var(--bg-17);
+  font-weight: 800;
 }
 @media (max-width: 575px) {
   .footer-heading {
@@ -3157,6 +3121,7 @@ header.header-sticky {
     position: relative;
     padding-right: 20px;
     line-height: 24px;
+     color: var(--bg-17);
   }
   .footer-heading-mobile::after {
     position: absolute;
@@ -5063,6 +5028,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 .form-log {
   margin-bottom: 15px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border: 2px solid var(--primary);
+  border-radius: 20x;
 }
 .form-log .form-content {
   margin-bottom: 32px;
@@ -6372,6 +6341,7 @@ input[type=number]::-webkit-outer-spin-button {
 .tf-mini-cart-main {
   flex: 1 1 auto;
   position: relative;
+  height: 250px;
 }
 
 .tf-mini-cart-sroll {
@@ -7535,8 +7505,9 @@ input[type=number]::-webkit-outer-spin-button {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  border: 1px solid var(--line-3);
+  border: 1px solid var(--bg-17);
   position: relative;
+  color: var(--bg-17);
 }
 .tf-social-icon a .icon {
   display: inline-flex;
@@ -8017,6 +7988,9 @@ input[type=number]::-webkit-outer-spin-button {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  border: 1px solid var(--secondary-4);
+  box-shadow: 2px 3px 4px rgba(0,0,0,0.3);
+  padding: 15px;
 }
 .card_product--V01 .remove {
   position: absolute;
@@ -8063,6 +8037,8 @@ input[type=number]::-webkit-outer-spin-button {
   object-fit: cover;
   object-position: center;
   transition-duration: 700ms;
+  border: 2px solid var(--red);
+  border-radius: 10px;
 }
 .card_product--V01 .card_product-wrapper:hover .img-hover {
   display: block;
@@ -8070,6 +8046,8 @@ input[type=number]::-webkit-outer-spin-button {
   opacity: 1;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+  border: 2px solid var(--bg-13);
+  border-radius: 10px;
 }
 .card_product--V01 .product-img {
   display: flex;
@@ -8587,6 +8565,7 @@ input[type=number]::-webkit-outer-spin-button {
   display: flex;
   flex-direction: column;
   gap: 20px;
+
 }
 .box_collection--V01 .name {
   display: inline-flex;
@@ -8595,15 +8574,22 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .box_collection--V01.style_2 {
   align-items: center;
-}
+    padding: 10px;
+    border: 3px solid var(--bg-17);
+}  
 .box_collection--V01.style_2 .image {
   border-radius: 50%;
+  border: 2px solid var(--red);
+ 
 }
 .box_collection--V01.style_3 {
   align-items: center;
+  padding: 15px;
 }
 .box_collection--V01.style_3 .image {
   border-radius: 50%;
+  border: 3px solid var(--bg-13);
+ 
 }
 @media (min-width: 1200px) {
   .box_collection--V01.style_3 {
@@ -8657,9 +8643,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 .flat-wrap-media-product {
   position: relative;
+  padding: 0 50px;
 }
 .flat-wrap-media-product .tf-product-media-main .swiper-slide {
   height: auto;
+ 
 }
 .flat-wrap-media-product .tf-product-media-main .item {
   height: 100%;
@@ -8671,6 +8659,8 @@ input[type=number]::-webkit-outer-spin-button {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 3px solid var(--bg-13);
+  padding: 20px;
 }
 .flat-wrap-media-product .tf-product-media-main .slide-3d,
 .flat-wrap-media-product .tf-product-media-main .slide-video {
@@ -8680,6 +8670,7 @@ input[type=number]::-webkit-outer-spin-button {
 .tf-product-media-thumbs {
   width: 100%;
   flex-shrink: 0;
+ 
 }
 .tf-product-media-thumbs .swiper-slide .item {
   position: relative;
@@ -8689,11 +8680,14 @@ input[type=number]::-webkit-outer-spin-button {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  
 }
 .tf-product-media-thumbs .swiper-slide .item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 2px solid var(--bg-17);
+  padding: 10px;
 }
 .tf-product-media-thumbs .swiper-slide .item::after {
   position: absolute;
@@ -11384,6 +11378,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   border-top: 1px solid var(--line);
   margin-bottom: 10px;
   flex-wrap: wrap;
+  
 }
 .tf-shop-control .tf-group-layout {
   display: flex;
@@ -11676,6 +11671,9 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+.widget-facet .facet-title h6{
+  color: var(--bg-13) !important;
 }
 .widget-facet .facet-title .icon::before {
   transform: rotate(90deg);
@@ -13454,11 +13452,14 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   overflow: hidden;
   position: relative;
   z-index: 2;
+
 }
 .shape-image .image img {
   aspect-ratio: 1;
   width: 100%;
   object-fit: cover;
+
+ 
 }
 .shape-image .line-circle {
   display: block;
@@ -13750,7 +13751,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 /* -- Slider -- */
 .s-title {
   margin-bottom: 30px;
-  font-weight: normal;
+  font-weight: 600;
   text-transform: uppercase;
 }
 @media (min-width: 1200px) {
@@ -13793,6 +13794,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 .sect-top .s-title {
   margin-bottom: 0;
+  color: var(--red);
+
 }
 .sect-top.center {
   flex-direction: column;
@@ -14105,6 +14108,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   }
   .cls-tablist .tab-cls {
     max-width: 581px;
+    padding: 0 35px;
+
   }
 }
 @media (min-width: 992px) {
@@ -15834,7 +15839,38 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     margin-bottom: 20px;
   }
 }
-
+.s-contact-us .left-col .store-info-list li{
+  border: 1px solid var(--bg-22);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+  padding: 30px 30px;
+  width: 80%;
+}
+.s-contact-us .right-col{
+  
+  padding: 20px;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.5);
+}
+.s-contact-us .left-col .store-info-list li p{
+  font-size: 22px;
+  color: var(--bg-13);
+}
+.s-contact-us .left-col .store-info-list li a{
+ font-size: 18px;
+ padding-top: 10px;
+}
 /*-------------- RTL ----------------- */
 
-/*# sourceMappingURL=styles.css.map */
+
+.cat{
+  background: url(/images/jewellery/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+ z-index: -1;
+}
+
+.cat-a{
+  background: url(/images/jewellery/bg3.png);
+  background-size: cover;
+  background-position: center;
+ z-index: -1;
+}
