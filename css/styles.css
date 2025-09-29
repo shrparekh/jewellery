@@ -29,6 +29,9 @@
     * Section
  ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @import url(bootstrap-select.min.css);
 :root {
   --white: #ffffff;
@@ -104,6 +107,9 @@
   --linear-5: linear-gradient(138.03deg, #FFF3E5 23.68%, #FFCDA2 100%);
   --success: #3dab25;
   --error: #f03e3e;
+  --primary-font: "Alex Brush", cursive;
+  --secondary-font:"Playfair Display", serif;
+  --body-font:"Playfair Display", serif;
 }
 
 /*---------- Reset css styles ----------- */
@@ -196,10 +202,12 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: inherit;
+  font-family: var(--body-font);
   font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
+  font-style: normal;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
 article,
@@ -230,13 +238,13 @@ html {
 }
 
 body {
-  font-family: "Jost", sans-serif;
+  font-family: var(--body-font);
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   letter-spacing: -0.32px;
   color: var(--main);
-  background-color: var(--white);
+  background-color: white;
 }
 body::-webkit-scrollbar {
   width: 5px;
@@ -627,7 +635,7 @@ h6,
 }
 
 .font-2 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
 }
 
 .font-3 {
@@ -1102,7 +1110,7 @@ a:focus, a:hover {
 
 .flat-spacing-3 {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 @media (max-width: 1199px) {
   .flat-spacing-3 {
@@ -3602,12 +3610,12 @@ footer{
 
 @media (max-width: 1439px) {
   .tf-slideshow .slider_wrap {
-    height: 700px;
+    height: 500px;
   }
 }
 @media (max-width: 767px) {
   .tf-slideshow .slider_wrap {
-    height: 600px;
+    height: 500px;
   }
 }
 @media (max-width: 575px) {
@@ -8575,7 +8583,7 @@ input[type=number]::-webkit-outer-spin-button {
 .box_collection--V01.style_2 {
   align-items: center;
     padding: 10px;
-    border: 3px solid var(--bg-17);
+   
 }  
 .box_collection--V01.style_2 .image {
   border-radius: 50%;
@@ -13497,12 +13505,15 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 .banner_V06 .caption {
   margin-bottom: 10px;
+ color: var(--main-5);
 }
 .banner_V06 .title {
   margin-bottom: 17px;
+  color: var(--bg-17);
 }
 .banner_V06 .sub-title {
   margin-bottom: 30px;
+  color: white;
 }
 .banner_V06 .bn-image {
   margin-bottom: 30px;
@@ -13754,7 +13765,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .s-title {
   margin-bottom: 30px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-size: 55px;
 }
 @media (min-width: 1200px) {
   .s-title {
@@ -13783,7 +13795,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .s-sub-title {
-  color: var(--main-4);
+  color: var(--main-2);
+  font-size: 18px;
 }
 
 .sect-top {
@@ -13797,8 +13810,23 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .sect-top .s-title {
   margin-bottom: 0;
   color: var(--red);
-
+  position: relative;
+  display: inline-block; /* keeps underline sized to text */
+  padding-bottom: 12px;  /* spacing above the border image */
 }
+
+.sect-top .s-title::after {
+      content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: url(../images/jewellery/border2.png) no-repeat center;
+    background-size: contain;
+}
+
 .sect-top.center {
   flex-direction: column;
   gap: 24px;
@@ -14331,6 +14359,11 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 .wg-cls .image {
   min-height: 250px;
+    border: 4px solid var(--bg-7);
+    padding: 10px;
+   
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
+
 }
 .wg-cls .content {
   display: flex;
