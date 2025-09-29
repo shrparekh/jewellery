@@ -62,7 +62,7 @@
                             <li>About Us</li>
                         </ul>
                         <h1 class="heading fw-normal text-uppercase">
-                            welcome to vemus
+                            welcome to Bhansali jewellery
                         </h1>
                     </div>
                     <div class="box-text">

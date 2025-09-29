@@ -49,7 +49,7 @@
         <!-- /Header -->
         <!-- Banner Slider -->
         <div class="tf-slideshow">
-            <div class="container-full-2">
+            <div class="container-full">
                 <div dir="ltr" class="swiper tf-swiper sw-slide-show slider_effect_fade" data-auto="true" data-loop="true" data-effect="fade"
                     data-delay="3000">
                     <div class="swiper-wrapper">
@@ -147,9 +147,8 @@
                 <div class="sect-top center text-center ">
                     <h2 class="s-title font-2"><span class="fst-italic">Our</span> Categories</h2>
                     <p class="s-sub-title">
-                        Explore our collection of sophisticated, modern designs that make a statement without saying a word.
-                        <br class="d-none d-xl-block">
-                        Find your signature look today.
+Discover jewellery designed for every occasion. From everyday elegance to timeless bridal treasures,                         <br class="d-none d-xl-block">
+                        Our collections are crafted to suit your unique style.
                     </p>
                 </div>
                 <div dir="ltr" class="swiper tf-swiper max-width_1 wow fadeInUp" data-preview="6" data-tablet="4" data-mobile-sm="3" data-mobile="2"
@@ -1491,54 +1490,73 @@
          <!-- Icon Box -->
         <div class="flat-spacing-9 pb-5">
             <div class="container">
-                <div dir="ltr" class="swiper tf-swiper" data-preview="4" data-tablet="3" data-mobile-sm="2" data-mobile="1" data-space-lg="48"
+                <div class="sect-top center text-center ">
+                    <h2 class="s-title font-2"><span class="fst-italic">Jewellery</span> Care</h2>
+                    <p class="s-sub-title">
+Your jewellery is precious – with the right care, it will shine for years to come.                         <br class="d-none d-xl-block">
+                        Follow these simple tips to keep your pieces looking as beautiful as the day you bought them:
+                    </p>
+                </div>
+                <div dir="ltr" class="swiper tf-swiper" data-preview="5" data-tablet="3" data-mobile-sm="2" data-mobile="1" data-space-lg="48"
                     data-space-md="30" data-space="15" data-pagination="1" data-pagination-sm="2" data-pagination-md="3" data-pagination-lg="4">
                     <div class="swiper-wrapper">
                         <!-- item 1 -->
                         <div class="swiper-slide">
                             <div class="box_icon--V02 style_2 wow fadeInLeft">
-                                <span class="icon">
-                                    <i class="icon-box"></i>
+                                <span class="icon icon2">
+                                    <img src="images/jewellery/engagement-ring_9694367.png" alt="">
                                 </span>
                                 <div class="content">
-                                    <h5 class="title">FREE SHIPPING</h5>
-                                    <p class="text">Enjoy free shipping on all orders</p>
+                                    <h5 class="title">Store jewellery in an air-tight jewellery box</h5>
+                                    <!-- <p class="text"></p> -->
                                 </div>
                             </div>
                         </div>
                         <!-- item 2 -->
                         <div class="swiper-slide">
                             <div class="box_icon--V02 style_2 wow fadeInLeft" data-wow-delay="0.1s">
-                                <span class="icon">
-                                    <i class="icon-credit-card"></i>
+                                <span class="icon icon2">
+                                    <img src="images/jewellery/trick_8362407.png" alt="">
                                 </span>
                                 <div class="content">
-                                    <h5 class="title">SECURED PAYMENT</h5>
-                                    <p class="text">Secured payment</p>
+                                    <h5 class="title">Clean your jewellery after use and occasionally with a soft cloth</h5>
+                                    <!-- <p class="text"></p> -->
                                 </div>
                             </div>
                         </div>
                         <!-- item 3 -->
                         <div class="swiper-slide">
                             <div class="box_icon--V02 style_2 wow fadeInLeft" data-wow-delay="0.2s">
-                                <span class="icon">
-                                    <i class="icon-return"></i>
+                                <span class="icon icon2">
+                                    <img src="images/jewellery/cleaning_17355756.png" alt="">
                                 </span>
                                 <div class="content">
-                                    <h5 class="title">14 DAYS RETURN</h5>
-                                    <p class="text">Free return in 14 days</p>
+                                    <h5 class="title">Avoid direct contact with perfume, body lotions or other chemicals</h5>
+                                    <!-- <p class="text"></p> -->
                                 </div>
                             </div>
                         </div>
                         <!-- item 4 -->
                         <div class="swiper-slide">
                             <div class="box_icon--V02 style_2 wow fadeInLeft" data-wow-delay="0.3s">
-                                <span class="icon">
-                                    <i class="icon-headphone"></i>
+                                <span class="icon icon2">
+                                    <img src="images/jewellery/shower_5529571.png" alt="">
                                 </span>
                                 <div class="content">
-                                    <h5 class="title">PREMIUM SUPPORT</h5>
-                                    <p class="text">Enjoy our support 24/7</p>
+                                    <h5 class="title">Remove jewellery when bathing, showering or swimming</h5>
+                                    <!-- <p class="text"></p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 5 -->
+                        <div class="swiper-slide">
+                            <div class="box_icon--V02 style_2 wow fadeInLeft" data-wow-delay="0.3s">
+                                <span class="icon icon2">
+                                    <img src="images/jewellery/girl_13563356.png" alt="">
+                                </span>
+                                <div class="content">
+                                    <h5 class="title">Remove Jewellery before sleeping</h5>
+                                   
                                 </div>
                             </div>
                         </div>

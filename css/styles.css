@@ -3758,7 +3758,7 @@ footer{
 }
 .sld-image img {
   width: 100%;
-  height: 100%;
+  height: 80vh;
   object-fit: cover;
 }
 
@@ -8034,7 +8034,7 @@ input[type=number]::-webkit-outer-spin-button {
   display: block;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
   object-position: center;
   transition-duration: 700ms;
   border: 2px solid var(--red);
@@ -12230,8 +12230,10 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 .box_icon--V02.style_2 {
-  border: 1px solid var(--line);
-  padding: 20px 15px;
+     border: 1px solid antiquewhite;
+    padding: 20px 15px;
+    background: antiquewhite;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 1200px) {
   .box_icon--V02.style_2 {
@@ -15873,4 +15875,13 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   background-size: cover;
   background-position: center;
  z-index: -1;
+}
+.icon2 img {
+  width: 80px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
