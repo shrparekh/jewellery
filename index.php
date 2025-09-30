@@ -37,6 +37,7 @@
     <div class="preload preload-container" id="preload">
         <div class="preload-logo">
             <div class="spinner"></div>
+             <img src="images/jewellery/logo.png" alt="Logo" class="preload-img">
         </div>
     </div>
     <!-- /preload -->
@@ -92,12 +93,12 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <div class="content-sld">
-                                                    <p class="title-sld-2 font-2 fade-item fade-item-1 text-main">
+                                                    <p class="title-sld-2 font-2 fade-item fade-item-1 ">
                                                         <span class="fst-italic">Elegance,</span> <br>
                                                         Redefined
                                                     </p>
                                                     <div class="fade-item fade-item-2">
-                                                        <a href="shop-collection-list.html" class="tf-btn type-large">
+                                                        <a href="shop-collection-list.html" class="tf-btn type-large style-white-2">
                                                             new arrivals
                                                             <i class="icon-arrow-right fs-24"></i>
                                                         </a>

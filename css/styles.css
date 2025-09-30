@@ -1628,19 +1628,22 @@ a:focus, a:hover {
 ------------------------------------------- */
 .preload-container {
   display: flex;
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 100%;
-  background: var(--bg-17);
-  position: fixed;
+  background: #fffdf7;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
   z-index: 99999999999;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.preload-logo {
+  position: relative;
+  width: 150px;
+  height: 150px;
 }
 
 .spinner {
@@ -1649,15 +1652,19 @@ a:focus, a:hover {
   border: 5px solid transparent;
   border-top: 5px solid var(--red);
   border-radius: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
   animation: spin 1s infinite linear;
 }
 
+.preload-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100px;   /* adjust size */
+  max-height: 100px;  /* adjust size */
+  
+}
+  
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -1666,6 +1673,7 @@ a:focus, a:hover {
     transform: rotate(360deg);
   }
 }
+
 .br-line {
   width: 100%;
   height: 1px;
@@ -7715,6 +7723,8 @@ input[type=number]::-webkit-outer-spin-button {
 .hover-img4 .img-style4 {
   position: relative;
   overflow: hidden;
+height: 560px;
+
 }
 .hover-img4 .img-style4:after {
   content: "";
@@ -12364,6 +12374,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 .box_image--V01 {
   position: relative;
+  /* height: 150vh; */
 }
 .box_image--V01 .content {
   display: flex;
