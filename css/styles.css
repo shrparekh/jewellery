@@ -1396,6 +1396,7 @@ a:focus, a:hover {
   display: grid;
   column-gap: 15px;
   row-gap: 30px;
+  margin: 0 20px;
 }
 .tf-grid-layout.tf-col-2 {
   grid-template-columns: 1fr 1fr;
@@ -12385,16 +12386,24 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   left: 20px;
   right: 20px;
   gap: 10px;
+  color: #fff;
 }
 .box_image--V01 .box-text {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 0px 10px;
+  color: #fff;
 }
 .box_image--V01 img {
   height: 100%;
   object-fit: cover;
+}
+.box_image--V01 .box-btn{
+  border: 2px solid #fff;
+    padding: 5px 20px;
+    background: rgba(277, 277, 277, 0.7);
+
 }
 @media (min-width: 992px) {
   .box_image--V01 .content {
@@ -14838,7 +14847,10 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 .main-legal .legal-title {
   font-weight: normal;
-  margin-bottom: 24px;
+    margin-bottom: 65px;
+    border-bottom: 2px solid #b6b4b4;
+    text-align: center;
+
 }
 .main-legal .legal-sub {
   color: var(--main-6);
@@ -15929,3 +15941,60 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
 }
+.policy-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.policy-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.policy-list li i {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  font-size: 16px;
+  color: #ff4b2b; /* highlight color */
+}
+.circle-list {
+  list-style: none; /* remove default bullets */
+  padding: 0;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.circle-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Custom Circle */
+.circle-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background: #ff4b2b; /* your theme color */
+  border-radius: 50%; /* makes it a circle */
+}
+.legal-wrap{
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    border: 5px solid #fff7f7;
+    padding: 21px;
+
+}
+.legal-wrap

@@ -166,6 +166,57 @@ Discover jewellery designed for every occasion. From everyday elegance to timele
                                 <h5 class="name-cls link fw-normal">NEW IN</h5>
                             </a>
                         </div>
+                        <!-- item 1 -->
+                        <div class="swiper-slide">
+                            <a href="shop-collection-list.html" class="box_collection--V01 style_2 hover-img">
+                                <div class="image img-style">
+                                    <img src="images/collections/cls-18.jpg" data-src="images/collections/cls-18.jpg" alt=""
+                                        class=" ls-is-cached lazyloaded">
+                                </div>
+                                <h5 class="name-cls link fw-normal">NEW IN</h5>
+                            </a>
+                        </div>
+                        <!-- item 1 -->
+                        <div class="swiper-slide">
+                            <a href="shop-collection-list.html" class="box_collection--V01 style_2 hover-img">
+                                <div class="image img-style">
+                                    <img src="images/collections/cls-18.jpg" data-src="images/collections/cls-18.jpg" alt=""
+                                        class=" ls-is-cached lazyloaded">
+                                </div>
+                                <h5 class="name-cls link fw-normal">NEW IN</h5>
+                            </a>
+                        </div>
+                        <!-- item 1 -->
+                        <div class="swiper-slide">
+                            <a href="shop-collection-list.html" class="box_collection--V01 style_2 hover-img">
+                                <div class="image img-style">
+                                    <img src="images/collections/cls-18.jpg" data-src="images/collections/cls-18.jpg" alt=""
+                                        class=" ls-is-cached lazyloaded">
+                                </div>
+                                <h5 class="name-cls link fw-normal">NEW IN</h5>
+                            </a>
+                        </div>
+                        <!-- item 1 -->
+                        <div class="swiper-slide">
+                            <a href="shop-collection-list.html" class="box_collection--V01 style_2 hover-img">
+                                <div class="image img-style">
+                                    <img src="images/collections/cls-18.jpg" data-src="images/collections/cls-18.jpg" alt=""
+                                        class=" ls-is-cached lazyloaded">
+                                </div>
+                                <h5 class="name-cls link fw-normal">NEW IN</h5>
+                            </a>
+                        </div>
+
+                        <!-- item 1 -->
+                        <div class="swiper-slide">
+                            <a href="shop-collection-list.html" class="box_collection--V01 style_2 hover-img">
+                                <div class="image img-style">
+                                    <img src="images/collections/cls-18.jpg" data-src="images/collections/cls-18.jpg" alt=""
+                                        class=" ls-is-cached lazyloaded">
+                                </div>
+                                <h5 class="name-cls link fw-normal">NEW IN</h5>
+                            </a>
+                        </div>
                         <!-- item 2 -->
                         <div class="swiper-slide">
                             <a href="shop-collection-list.html" class="box_collection--V01 style_2 hover-img">
@@ -1869,10 +1920,12 @@ Discover jewellery designed for every occasion. From everyday elegance to timele
                                 <h3 class="title fw-medium font-2">
                                     Shine with Seasonal Picks
                                 </h3>
-                                <a href="shop-collection-list.html" class="tf-btn-line gap-10">
-                                    <span class="h5">Explore Collection</span>
-                                    <i class="icon-arrow-top-right fs-18"></i>
-                                </a>
+                               <div class="box-btn">
+                                    <a href="shop-default.html" class="tf-btn-line text-caption-2 fw-normal">
+                                        SHOP NOW
+                                        <i class="icon-arrow-top-right-2 fs-10"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
